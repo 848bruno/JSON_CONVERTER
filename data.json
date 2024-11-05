@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "age": 30,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "age": 25,
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "age": 35,
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 999.99,
+      "inStock": true
+    },
+    {
+      "id": 102,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 499.99,
+      "inStock": false
+    },
+    {
+      "id": 103,
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
+      "price": 79.99,
+      "inStock": true
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 1001,
+      "userId": 1,
+      "productIds": [101, 103],
+      "total": 1079.98,
+      "orderDate": "2023-10-01"
+    },
+    {
+      "orderId": 1002,
+      "userId": 2,
+      "productIds": [102],
+      "total": 499.99,
+      "orderDate": "2023-10-05"
+    },
+    {
+      "orderId": 1003,
+      "userId": 3,
+      "productIds": [101, 102, 103],
+      "total": 1579.97,
+      "orderDate": "2023-10-10"
+    }
+  ]
+}
